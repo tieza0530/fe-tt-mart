@@ -17,6 +17,7 @@ export default {
   			foreground: 'hsl(var(--foreground))',
 			customPurple: '#634C9F',
 			backgroundFooter: '#F3F4F6',
+			colorText: '#EA580C',
   			card: {
   				DEFAULT: 'hsl(var(--card))',
   				foreground: 'hsl(var(--card-foreground))'
