@@ -51,12 +51,12 @@ export const Header = () => {
           </div>
         </div>
         <hr />
-        <div className="mt-4 grid grid-cols-5 justify-between items-center">
+        <div className="mt-4 grid grid-cols-4 justify-between items-center">
           <div className="flex items-center col-span-1">
             <img src="/public/image/log.png" alt="logo" />
             <p className="ml-2 font-semibold text-xl">THUY TUYEN MART</p>
           </div>
-          <div className="col-span-3">
+          <div className="col-span-2">
             <Form {...form}>
               <form
                 onSubmit={form.handleSubmit(onSubmit)}
